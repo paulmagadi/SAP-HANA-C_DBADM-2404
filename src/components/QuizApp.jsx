@@ -92,7 +92,7 @@ const QuizApp = () => {
       <div className="max-w-4xl mx-auto">
         <div className="mb-4">
           <div className="flex justify-between items-center mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">{quizConfig.title}</h1>
+            <h3 className="font-bold text-gray-800">{quizConfig.title}</h3>
             <button
               onClick={resetQuiz}
               className="flex items-center gap-2 px-4 py-2 cursor-pointer bg-gray-200 hover:bg-gray-300 rounded-lg transition"
