@@ -9,6 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "homepage": "https://paulmagadi.github.io/SAP-HANA-C_DBADM-2404/"
